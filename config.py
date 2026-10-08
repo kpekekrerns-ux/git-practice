@@ -9,7 +9,7 @@ CONFIG = {
         "port": 8000,
     },
     "api": {
-        "timeout": 60,
+        "timeout": 90,
         "version": "v2",
     },
     "payment": {
