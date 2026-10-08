@@ -9,6 +9,12 @@ CONFIG = {
         "port": 8000,
     },
     "api": {
-        "timeout": 30,
+        "timeout": 60,
+        "version": "v2",
+    },
+    "payment": {
+        "provider": "stripe",
+        "currency": "USD",
+        "enabled": True,
     },
 }
